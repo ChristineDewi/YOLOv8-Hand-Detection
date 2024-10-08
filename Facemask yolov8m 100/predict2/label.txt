@@ -1,0 +1,49 @@
+
+(Yolov8) D:\PROJECT\yolov8>yolo task=detect mode=predict model=runs/detect/train_Yolov8m_100/weights/best.pt data=data.yaml imgsz=640 source=data/testmask
+Ultralytics YOLOv8.0.6  Python-3.9.15 torch-1.13.1+cpu CPU
+Fusing layers...
+Model summary: 218 layers, 25841497 parameters, 0 gradients, 78.7 GFLOPs
+image 1/40 D:\PROJECT\yolov8\data\testmask\1.jpg: 384x640 9 goods, 241.6ms
+image 2/40 D:\PROJECT\yolov8\data\testmask\135.jpg: 352x640 11 goods, 226.0ms
+image 3/40 D:\PROJECT\yolov8\data\testmask\136.jpg: 448x640 1 good, 272.1ms
+image 4/40 D:\PROJECT\yolov8\data\testmask\163.jpg: 512x640 1 good, 299.5ms
+image 5/40 D:\PROJECT\yolov8\data\testmask\196.jpg: 640x448 1 good, 275.4ms
+image 6/40 D:\PROJECT\yolov8\data\testmask\2.jpg: 448x640 1 bad, 8 goods, 1 none, 268.5ms
+image 7/40 D:\PROJECT\yolov8\data\testmask\225.jpg: 640x416 1 bad, 1 good, 281.6ms
+image 8/40 D:\PROJECT\yolov8\data\testmask\227.jpg: 640x480 1 good, 1 none, 301.5ms
+image 9/40 D:\PROJECT\yolov8\data\testmask\238.jpg: 384x640 1 bad, 1 good, 1 none, 250.3ms
+image 10/40 D:\PROJECT\yolov8\data\testmask\242.jpg: 480x640 6 goods, 1 none, 301.5ms
+image 11/40 D:\PROJECT\yolov8\data\testmask\258.jpg: 448x640 7 goods, 1 none, 282.1ms
+image 12/40 D:\PROJECT\yolov8\data\testmask\3.jpg: 352x640 1 bad, 1 good, 221.0ms
+image 13/40 D:\PROJECT\yolov8\data\testmask\39.jpg: 384x640 3 goods, 255.1ms
+image 14/40 D:\PROJECT\yolov8\data\testmask\42.jpg: 384x640 6 goods, 2 nones, 235.6ms
+image 15/40 D:\PROJECT\yolov8\data\testmask\633.jpg: 352x640 1 none, 226.1ms
+image 16/40 D:\PROJECT\yolov8\data\testmask\8.jpg: 448x640 9 goods, 275.4ms
+image 17/40 D:\PROJECT\yolov8\data\testmask\maksssksksss164.jpg: 320x640 7 goods, 2 nones, 217.8ms
+image 18/40 D:\PROJECT\yolov8\data\testmask\maksssksksss244.jpg: 448x640 1 good, 2 nones, 264.5ms
+image 19/40 D:\PROJECT\yolov8\data\testmask\maksssksksss261.jpg: 640x512 3 goods, 3 nones, 302.0ms
+image 20/40 D:\PROJECT\yolov8\data\testmask\maksssksksss287.jpg: 640x640 2 goods, 357.3ms
+image 21/40 D:\PROJECT\yolov8\data\testmask\maksssksksss352.jpg: 640x416 1 good, 1 none, 256.6ms
+image 22/40 D:\PROJECT\yolov8\data\testmask\maksssksksss353.jpg: 448x640 1 good, 269.0ms
+image 23/40 D:\PROJECT\yolov8\data\testmask\maksssksksss354.jpg: 480x640 25 goods, 289.5ms
+image 24/40 D:\PROJECT\yolov8\data\testmask\maksssksksss471.jpg: 480x640 2 bads, 3 goods, 295.1ms
+image 25/40 D:\PROJECT\yolov8\data\testmask\maksssksksss473.jpg: 352x640 3 goods, 1 none, 224.1ms
+image 26/40 D:\PROJECT\yolov8\data\testmask\maksssksksss560.jpg: 448x640 1 good, 268.0ms
+image 27/40 D:\PROJECT\yolov8\data\testmask\maksssksksss570.jpg: 448x640 2 bads, 2 goods, 6 nones, 266.7ms
+image 28/40 D:\PROJECT\yolov8\data\testmask\maksssksksss583.jpg: 384x640 3 goods, 238.6ms
+image 29/40 D:\PROJECT\yolov8\data\testmask\maksssksksss647.jpg: 448x640 1 bad, 9 goods, 2 nones, 270.3ms
+image 30/40 D:\PROJECT\yolov8\data\testmask\maksssksksss662.jpg: 448x640 4 goods, 271.0ms
+image 31/40 D:\PROJECT\yolov8\data\testmask\maksssksksss665.jpg: 448x640 8 goods, 277.5ms
+image 32/40 D:\PROJECT\yolov8\data\testmask\maksssksksss68.jpg: 640x512 1 none, 306.7ms
+image 33/40 D:\PROJECT\yolov8\data\testmask\maksssksksss695.jpg: 448x640 22 goods, 5 nones, 275.0ms
+image 34/40 D:\PROJECT\yolov8\data\testmask\maksssksksss748.jpg: 384x640 1 none, 244.7ms
+image 35/40 D:\PROJECT\yolov8\data\testmask\maksssksksss749.jpg: 640x416 2 goods, 271.0ms
+image 36/40 D:\PROJECT\yolov8\data\testmask\maksssksksss80.jpg: 384x640 1 good, 256.3ms
+image 37/40 D:\PROJECT\yolov8\data\testmask\maksssksksss820.jpg: 384x640 1 good, 256.9ms
+image 38/40 D:\PROJECT\yolov8\data\testmask\maksssksksss825.jpg: 384x640 4 goods, 263.7ms
+image 39/40 D:\PROJECT\yolov8\data\testmask\maksssksksss832.jpg: 640x512 1 none, 354.5ms
+image 40/40 D:\PROJECT\yolov8\data\testmask\maksssksksss835.jpg: 640x448 1 none, 312.2ms
+Speed: 0.7ms pre-process, 270.6ms inference, 1.0ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to runs\detect\predict2
+
+(Yolov8) D:\PROJECT\yolov8>
