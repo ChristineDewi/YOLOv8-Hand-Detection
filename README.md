@@ -1,4 +1,4 @@
-**Utilizing the YOLOv8 Model for Accurate Hand Gesture Recognition with Complex Background**
+# Utilizing the YOLOv8 Model for Accurate Hand Gesture Recognition with Complex Background
 
 **Download Dataset**
 1. Oxford Hand Dataset https://drive.google.com/drive/folders/1W80oYC0ZDG2ABRrW9YhQdsEXvE1gZaIb?usp=sharing
@@ -14,25 +14,28 @@ Pip install the ultralytics package including all requirements in a Python>=3.8 
 
 pip install ultralytics
 
-**Prepare the Hand.yaml file**
+**Prepare the Hand.yaml file train and val data as**
+1) directory: path/images/, 2) file: path/images.txt, or 3)
 
-# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+list: [path1/images/, path2/images/]
+
 train: Hand/train/images
+
 val: Hand/valid/images
 
-# number of classes
+**# number of classes**
 nc: 1
 
-# class names
+**# class names**
 names: [ 'hand']
 
-**Train**
+# **Train**
 
 yolo task=detect mode=train model=yolov8n.pt data=Hand.yaml epochs=50 imgsz=640
 
 yolo task=detect mode=train model=yolov8n.pt data=dataHand.yaml epochs=100 imgsz=640
 
-**Predict**
+# **Predict**
 
 yolo task=detect mode=predict  model=runs/detect/train5YoloV8n200epochhand/weights/best.pt data=Hand.yaml imgsz=640  source=data/testhand
 
@@ -40,7 +43,7 @@ yolo task=detect mode=predict model=runs/detect/train3/weights/best.pt data=Hand
 
 yolo task=detect mode=predict model=runs/detect/train5/weights/best.pt data=dataHand.yaml epochs=100 imgsz=640 source=data/video/1a.mp4
 
-**Validation**
+# **Validation**
 
 yolo task=detect mode=val model=runs/detect/train5/weights/best.pt data=dataHand.yaml epochs=100 imgsz=640
 
