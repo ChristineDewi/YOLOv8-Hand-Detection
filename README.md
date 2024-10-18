@@ -14,6 +14,18 @@ Pip install the ultralytics package including all requirements in a Python>=3.8 
 
 pip install ultralytics
 
+**Prepare the Hand.yaml file**
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: Hand/train/images
+val: Hand/valid/images
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'hand']
+
 **Train**
 
 yolo task=detect mode=train model=yolov8n.pt data=Hand.yaml epochs=50 imgsz=640
