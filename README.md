@@ -32,3 +32,5 @@ yolo task=detect mode=predict model=runs/detect/train5/weights/best.pt data=data
 
 yolo task=detect mode=val model=runs/detect/train5/weights/best.pt data=dataHand.yaml epochs=100 imgsz=640
 
+All Models download automatically from the latest Ultralytics release on first use.
+
