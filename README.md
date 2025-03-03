@@ -2,7 +2,7 @@
 
 **Download Dataset**
 1. Oxford Hand Dataset https://drive.google.com/drive/folders/1W80oYC0ZDG2ABRrW9YhQdsEXvE1gZaIb?usp=sharing
-
+https://www.robots.ox.ac.uk/~vgg/data/hands/
 2. Ego Hand Dataset https://vision.soic.indiana.edu/projects/egohands/
 
 **Install and clone the YOLOv8**
